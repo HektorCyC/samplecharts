@@ -1,27 +1,34 @@
-# Moons
+# Sample charts component
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+[Demo🏃](https://sampleapp-49553.web.app/)
 
-## Development server
+ - [x] [Angular Material design](https://material.angular.io/)✔️
+ - [x] Mobile friendly ✔️
+ - [x] [Firebase](https://firebase.io) UserAuth Integrated✔️
+ - [x] [Firebase](https://firebase.io) Firestore realtime database Integrated✔️
+ - [x] [Firebase](https://firebase.io) Firestore hosting ready✔️
+ - [x] Propietary [Backend Service](https://github.com/HektorCyC/SimpleBackend) ✔️
+ - [x] Angular Observables✔️
+ - [x] Angular Guards ✔️
+ - [x] Angular Services✔️
+ - [x] Modular design✔️
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to run the project in localhost
 
-## Code scaffolding
+ 1. Clone the repository at the master branch
+ 2. NodeJs **minimum 10.15.0 is required**
+ 3. Setup your own Firebase project API keys at the file `enviroments/enviroment.ts`
+ 4. Install dependecies `npm i`
+ 5. Serve the project `ng serve`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Deploy to Firebase
 
-## Build
+ 1. Login with Firebase CLI `firebase login`
+ 2. Initialize Firebase project -> Follow the instrucctions at the CLI `firebase init` *point to your "dist" folder for further deployments*
+ 3. Build your production package `ng build --prod`
+ 4. Deploy the project to your choosen Firebase project `firebase deploy --hosting`
+Further information about deployment 
+[**Angular deployment**](https://angular.io/start/deployment) 
+[**Firebase Deploy**](https://firebase.google.com/docs/hosting/deploying)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Made with ❤️ in 🇲🇽
