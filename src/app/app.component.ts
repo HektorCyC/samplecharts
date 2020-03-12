@@ -8,7 +8,8 @@ import { Component } from "@angular/core";
 export class AppComponent {
   dataValues1 = {
     Tablet: 40,
-    Smartphone: 60
+    Smartphone: 60,
+    value: 60
   };
   metaData1 = {
     title: "Earnings",
@@ -16,7 +17,8 @@ export class AppComponent {
   };
   dataValues2 = {
     Tablet: 60,
-    Smartphone: 40
+    Smartphone: 40,
+    value: 60
   };
   metaData2 = {
     title: "Impressions",
@@ -24,7 +26,8 @@ export class AppComponent {
   };
   dataValues3 = {
     Tablet: 80,
-    Smartphone: 20
+    Smartphone: 20,
+    value: 60
   };
   metaData3 = {
     title: "Visits",

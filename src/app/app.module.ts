@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { GraphComponent } from "./graph/graph.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatGridListModule } from "@angular/material/grid-list";
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [AppComponent, GraphComponent],
@@ -13,9 +14,10 @@ import { MatGridListModule } from "@angular/material/grid-list";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
-  exports: [MatGridListModule],
+  exports: [MatGridListModule,MatCardModule],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,7 +1,11 @@
-.wrapper {
-  position: relative;
-  width: 450px;
-  border: 1px dashed lightblue;
+// .wrapper {
+//   position: relative;
+//   width: 450px;
+//   // border: 1px dashed lightblue;
+// }
+.chart {
+  display: inline-flex;
+  text-align: center;
 }
 .items {
   display: flex;
